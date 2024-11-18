@@ -187,11 +187,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c194f651235c27142a3ba122b17c5616, type: 3}
---- !u!4 &388301754 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1977912723228774681, guid: f0a5c701e2c5e2943af5fe753255dc6d, type: 3}
-  m_PrefabInstance: {fileID: 4788992674019057835}
-  m_PrefabAsset: {fileID: 0}
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 3759522615595729648, guid: 339da913628232c4b9ba7403c2148a24, type: 3}
@@ -364,7 +359,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
   hitVFX: {fileID: 4753057957287343900, guid: 817a86544f38c1944b5b94203aecd5d3, type: 3}
-  parent: {fileID: 388301754}
   scorePerHit: 15
   hitPoints: 30
 --- !u!1 &1194105476
@@ -1041,6 +1035,10 @@ PrefabInstance:
     - target: {fileID: 8863843906353209055, guid: f0a5c701e2c5e2943af5fe753255dc6d, type: 3}
       propertyPath: m_Name
       value: Spawn At Runtime
+      objectReference: {fileID: 0}
+    - target: {fileID: 8863843906353209055, guid: f0a5c701e2c5e2943af5fe753255dc6d, type: 3}
+      propertyPath: m_TagString
+      value: SpawnAtRuntime
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
