@@ -241,6 +241,10 @@ PrefabInstance:
       value: VIPER
       objectReference: {fileID: 0}
     - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
       propertyPath: hitPoints
       value: 2
       objectReference: {fileID: 0}
@@ -359,6 +363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -571,6 +579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -662,6 +674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -722,6 +738,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -952,7 +972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ffff28ca50b9b48890369a8ac2b361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
+  deathFX: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
   hitVFX: {fileID: 4753057957287343900, guid: 817a86544f38c1944b5b94203aecd5d3, type: 3}
   scorePerHit: 15
   hitPoints: 30
@@ -1149,6 +1169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1240,6 +1264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1362,6 +1390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1432,6 +1464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1633,6 +1669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1761,6 +1801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1852,6 +1896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2063,6 +2111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VIPER (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8115747395977186680, guid: c194f651235c27142a3ba122b17c5616, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2564,6 +2616,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4753057957287343900, guid: 817a86544f38c1944b5b94203aecd5d3, type: 3}
     - target: {fileID: 6443738789626701152, guid: f0a5c701e2c5e2943af5fe753255dc6d, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
+    - target: {fileID: 6443738789626701152, guid: f0a5c701e2c5e2943af5fe753255dc6d, type: 3}
       propertyPath: hitPoints
       value: 30
       objectReference: {fileID: 0}
@@ -2571,6 +2627,10 @@ PrefabInstance:
       propertyPath: hitVFX
       value: 
       objectReference: {fileID: 4753057957287343900, guid: 817a86544f38c1944b5b94203aecd5d3, type: 3}
+    - target: {fileID: 7571908631354774122, guid: f0a5c701e2c5e2943af5fe753255dc6d, type: 3}
+      propertyPath: deathFX
+      value: 
+      objectReference: {fileID: 4753057957287343900, guid: a93b298af55d6b441a8ed78b96f04715, type: 3}
     - target: {fileID: 7571908631354774122, guid: f0a5c701e2c5e2943af5fe753255dc6d, type: 3}
       propertyPath: hitPoints
       value: 30
