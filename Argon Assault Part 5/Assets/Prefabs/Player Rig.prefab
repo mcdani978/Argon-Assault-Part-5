@@ -84,6 +84,7 @@ GameObject:
   - component: {fileID: 1598934078551985581}
   - component: {fileID: 7394367315949947135}
   - component: {fileID: 551343843432663025}
+  - component: {fileID: 6360085272750226500}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -165,6 +166,66 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7027182918732555461}
   m_Enabled: 1
+--- !u!114 &6360085272750226500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7027182918732555461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 1598934078551985581}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 1
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 1
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1001 &5077590025009854552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -233,13 +294,73 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: laserLeft
+      value: 
+      objectReference: {fileID: 2200301953905501936}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: laserRight
+      value: 
+      objectReference: {fileID: 7694665664331298794}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 8136304615907833010}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 335534320602097064}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Id
+      value: c299ca81-679b-4da1-9b1f-376e21bcc6d3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/space
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150206361541301797, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Interactions
+      value: Press
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+--- !u!1 &335534320602097064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4818631245551885808, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+  m_PrefabInstance: {fileID: 5077590025009854552}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1945041757143436593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6667882805941335401, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+  m_PrefabInstance: {fileID: 5077590025009854552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2200301953905501936 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6412619825908407976, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+  m_PrefabInstance: {fileID: 5077590025009854552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7694665664331298794 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3224516443045089202, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
+  m_PrefabInstance: {fileID: 5077590025009854552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8136304615907833010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3935808288369265898, guid: 4ce230707fdd03f40ad38b534af974b1, type: 3}
   m_PrefabInstance: {fileID: 5077590025009854552}
   m_PrefabAsset: {fileID: 0}
